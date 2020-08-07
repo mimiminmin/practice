@@ -1,0 +1,158 @@
+body{
+  color: #082b48;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.5;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: #082b48;
+}
+a:hover{
+  opacity: 0.7;
+}
+.container{
+  max-width: 980px;
+  width: 90%;
+  margin: auto;
+}
+.clear::after{
+  content:"";
+  clear: both;
+  display: block;
+}
+
+/* ----------header---------- */
+header{
+  padding: 20px 0;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.header-title{
+  font-weight: bold;
+  font-size: 24px;
+}
+.header-nav{
+  display: flex;
+}
+.header-nav-item{
+  margin-left: 50px;
+}
+.header-nav-item a{
+  line-height: 36px;
+  font-weight: 600;
+  font-size: 15px;
+}/* ----------/header---------- */
+
+/* ----------section---------- */
+.section{
+  padding: 60px 0;
+}
+.section-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}/* ----------/section---------- */
+
+/* ----------top---------- */
+.top{
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+  padding: 80px 0;
+}
+.top-title{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top-subtitle{
+  font-size: 18px;
+  text-align: center;
+}
+/* ----------/top---------- */
+
+/* ----------about---------- */
+  .about-item{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-item-left{
+    width: 48%;
+  }
+  .about-item-right{
+    width: 48%;
+  }
+/* ----------/about---------- */
+
+/* ----------course---------- */
+.course{
+  background-color: #e3fef6;
+}
+.course-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.course-item{
+  width: 30%;
+}
+/* ----------/course---------- */
+
+/* ----------contact---------- */
+.contact-message{
+  text-align: center;
+  margin-bottom: 20px;
+}
+input[type="email"]{
+  width: 600px;
+  border: 3px solid #d8d8d8;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border-radius: 999px;
+}
+.btn{
+  padding: 20px 60px;
+  display: inline-block;
+  background-color: #082b48;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+.btn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.btn-register{
+  background-color: #ec6d64;
+  display: block;
+  margin: auto;
+  box-shadow: 0 7px #8a433e;
+}
+.btn-register:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/* ----------/contact---------- */
+
+/* ----------footer---------- */
+footer{
+  background-color: #082b48;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.copyright{
+  font-size: 12px;
+  float: right;
+}
+/* ----------/footer---------- */
